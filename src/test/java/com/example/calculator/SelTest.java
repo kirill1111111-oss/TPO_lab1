@@ -58,7 +58,7 @@ public class SelTest {
         }
     }
 
-    // проверка выплывающего меню abou
+    // проверка выплывающего меню about
     @Test
     public void testAboutMenu() {
         driver.get("https://www.selenium.dev/");
