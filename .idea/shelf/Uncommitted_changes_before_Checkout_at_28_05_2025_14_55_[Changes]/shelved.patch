@@ -1,0 +1,45 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,11 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7caaeefb-fc3d-4f1d-8890-2fbc71a525af" name="Changes" comment="12">
+-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/calculator/SeleniumTests.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="7caaeefb-fc3d-4f1d-8890-2fbc71a525af" name="Changes" comment="12" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -24,7 +20,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="lab1" />
++        <entry key="$PROJECT_DIR$" value="lsb2.1" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+Index: src/test/java/com/example/calculator/SeleniumTests.java
+===================================================================
+diff --git a/src/test/java/com/example/calculator/SeleniumTests.java b/src/test/java/com/example/calculator/SeleniumTests.java
+--- a/src/test/java/com/example/calculator/SeleniumTests.java	
++++ b/src/test/java/com/example/calculator/SeleniumTests.java	
+@@ -57,7 +57,8 @@
+                     "Пункт меню " + expectedItems[i] + " не найден");
+         }
+     }
+-    // проверка выплывающего меню about
++
++    // проверка выплывающего меню abou
+     @Test
+     public void testAboutMenu() {
+         driver.get("https://www.selenium.dev/");
